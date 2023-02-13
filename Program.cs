@@ -49,7 +49,7 @@ static void RouteEm(int menuChoice){
 static void GetFull(){
     Console.Clear();
     Random rnd = new Random();
-    int rows = rnd.Next(3,9);
+    int rows = rnd.Next(3,10);
     int count = 0;
     for(int i = 0; i <= rows; i++){
         for(int x = 0; x <= count;x++){
@@ -64,7 +64,7 @@ static void GetFull(){
 static void GetPartial(){
     Console.Clear();
     Random rnd = new Random();
-    int rows = rnd.Next(3,9);
+    int rows = rnd.Next(3,10);
     int rndNumber = rnd.Next(0,100);
     int count = 0;
     for(int i = 0; i <= rows; i++){
